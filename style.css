@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .main {
+    display: flex;
+    position: relative;
+  }
+  
+  .main .navbar {
+    width: 200px;
+    height: 100%;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  
+  .main .navbar h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .main .navbar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    text-align: center;
+  }    
+  
+  .main .navbar ul li a {
+    display: block;
+  }
+  
+  .main .navbar ul li a .fas {
+    width: 25px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: -125px;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  td {
+    border: 1px solid black;
+    text-align: center;
+    height: 75px;
+    width: 75px;
+  }
+
+  .hr {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.hr::before, .hr::after {
+    border-top: .0625em solid;
+    content: "";
+    flex: 1;
+    margin: 0 .5em;
+}
+
+  .main .main_content {
+    width: 100%;
+    margin-left: 200px;
+  }
+  
+  .main .main_content .info {
+    margin: 20px;
+    line-height: 25px;
+  }
+
+  .main .main_content .info h1 {
+    text-align: center;
+  }
+  
+  .main .main_content .info div {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+      margin-top: 150px;
+      margin-bottom: 20px;
+  }
+
+  .description {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 100%;
+  }
+
+  .description .gauche {
+    float: left;
+    width:60%;
+  }
+
+  .description .droite {
+    margin-left:60%;
+  }
+
+  h2 {
+    margin-top: 20px;
+  }
+
+  p {
+    font-style: italic;
+    color: #000;
+  }
